@@ -173,7 +173,7 @@ public class Langton_ants_mark_Two {
 
 			try {
 				img = ImageIO.read(new File(
-						"/home/wes/Wisper Tech 1.0/THEORY/GAMES/AntAnimation/LANGTON_ANTs_II/resources/data/IMAGES/"
+						"/home/wes/git/repository5/AntAnimation/LANGTON_ANTs_II/resources/data/IMAGES/"
 								+ COUNT + ".jpg"));
 				if (img != null)
 					COUNT++;
@@ -182,7 +182,7 @@ public class Langton_ants_mark_Two {
 			try {
 				if (img == null) {
 					img = ImageIO.read(new File(
-							"/home/wes/Wisper Tech 1.0/THEORY/GAMES/AntAnimation/LANGTON_ANTs_II/resources/data/IMAGES/"
+							"/home/wes/git/repository5/AntAnimation/LANGTON_ANTs_II/resources/data/IMAGES/"
 									+ COUNT + ".bmp"));
 					COUNT++;
 				}
@@ -191,7 +191,7 @@ public class Langton_ants_mark_Two {
 			try {
 				if (img == null) {
 					img = ImageIO.read(new File(
-							"/home/wes/Wisper Tech 1.0/THEORY/GAMES/AntAnimation/LANGTON_ANTs_II/resources/data/IMAGES/"
+							"/home/wes/git/repository5/AntAnimation/LANGTON_ANTs_II/resources/data/IMAGES/"
 									+ COUNT + ".png"));
 					COUNT++;
 				}
